@@ -6,8 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="header-text">
+            <p>Best <span>ToDo</span> App</p>
+        </div>
+        <div class="header-logo">
+            <a href="https://www.facebook.com/"><img src="facebook.png" alt="facebook logo"></a>
+            <a href="https://twitter.com/"><img src="twitter.png" alt="twitter logo"></a>
+            <a href="https://www.linkedin.com/"><img src="in.png" alt="Linkedin logo"></a>
+        </div>
+    </header>
+    <main>
+        <form action="">
+            <h2>Your Tasks</h2>
+            <div class="task-input">
+                <input type="text" placeholder="e.g. wash dishes">
+                <button>Add</button><br>
+                <small class="alert">There was An Error</small>
+            </div>
+            <section class="tasks-container">
+                <div class="tcontainer1">
+                    <div class="tcon-text">
+                        <h5>Take Out Trashes</h5>
+                    </div>
+                    <div class="tcon-icons">
+                        <a  href="form.html"><img class="edit" src="edit button.png" alt="Edit button"></a>
+                        <a  href="#"><img class="del" src="Trash.png" alt="Trash bin"></a>
+                    </div>
+                </div>
+                <div class="tcontainer2">
+                    <div class="tcon-text2">
+                        <h5>Walk The Dog</h5>
+                    </div>
+                    <div class="tcon-icon2">
+                        <a  href="form.html"><img class="edit" src="edit button.png" alt="Edit button"></a>
+                        <a  href="#"><img class="del" src="Trash.png" alt="Trash bin"></a>
+                    </div>
+                </div>
+                </div>
+            </section>
+        </form>
+    </main>    
 </body>
 </html>
