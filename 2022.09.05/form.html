@@ -22,23 +22,29 @@
         </div>
     </header>
     <main>
-        <form class="edit-form" action="">
-            <h1>Edit Task</h1>
-            <label for="task-id">Task ID
-                <input type="text" name="" id="task-id">
-            </label><br>
-            <label for="name">Name
-                <input type="text" name="" id="name">
-            </label><br>
-            <label for="Completed">Completed
-                <input type="checkbox">
-            </label><br>
-            <button>Edit</button><br>
+            <form class="edit-form" action="">
+                <h4>Edit Task</h4>
+                <div class="id">
+                    <label for="task-id">Task ID:
+                        <input type="text" name="id" id="task-id" value="123456789">
+                    </label>
+                </div>
+                <div class="edit-name">
+                    <label for="name">Name:
+                        <input type="text" name="name" id="name" value="Take Out Trashes">
+                    </label>
+                </div>
+                <div class="compl">
+                    <label for="Completed">Completed:
+                        <input type="checkbox">
+                    </label>
+                </div>
+            <button class="edit-btn">Edit</button><br>
             <small>There Was An Error</small>
         </form>
-        <div>
-            <button>Back to Tasks</button>
-        </div>
-    </main>
+            <div class="return-btn">
+                <button>Back to Tasks</button>
+            </div>
+        </main>
 </body>
 </html>
