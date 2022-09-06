@@ -50,7 +50,7 @@ form {
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.103), -5px 5px 5px rgba(37, 37, 37, 0.096);
 }
-/*.task-input {
+/*.task-input {  Panaikinta ir pakeista
     width: 65%;
     height: 25px;
     border-radius: 5px;
@@ -179,11 +179,6 @@ h4 {
     color: rgb(180, 16, 16);
     text-align: center;
 }
-.edit-form small {
-    text-align: center;
-    color: rgb(192, 18, 18);
-    margin-top: 10px;
-}
 .return-btn {
     margin-top: 100px;
 }
@@ -231,4 +226,13 @@ h4 {
     font-size: 12px;
     padding-left: 20px;
     color: rgb(184, 26, 26);
+}
+.return-btn button {
+    cursor: pointer;
+}
+.return-btn button:hover {
+    box-shadow: 5px 5px 5px gray;
+}
+.edit-btn:hover {
+    background-color: #574fe2;
 }
