@@ -44,20 +44,20 @@ main {
 }
 form {
     background-color: white;
-    width: 80%;
+    width: 600px;
     height: 180px;
     margin: 0 auto;
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.103), -5px 5px 5px rgba(37, 37, 37, 0.096);
 }
-.task-input {
+/*.task-input {
     width: 65%;
     height: 25px;
     border-radius: 5px;
     font-size: 16px;
     border-color: rgba(128, 128, 128, 0.103);
     padding-left: 10px;
-    margin-left: 10px;
+    margin-left: 10px; 
 }
 button {
     width: 20%;
@@ -67,7 +67,8 @@ button {
     border-radius: 5px;
     color: white;
 }
-button:hover {
+*/
+.add-btn:hover {
     background-color: #574fe2;
 }
 .alert {
@@ -125,7 +126,7 @@ h2 {
 }
 .edit-form {
     padding: 50px;
-    width: 60%;
+    width: 550px;
     height: 250px;
 }
 h4 {
@@ -146,8 +147,8 @@ h4 {
     width: 300px;
     height: 30px;
     border-radius: 3px;
-    background-color: rgba(182, 181, 181, 0.089);
-    border: none;
+    background-color: #f8fafc;
+    border: 1px solid rgba(128, 128, 128, 0.151);
     padding-left: 7px;
     font-size: 16px;
     
@@ -162,8 +163,19 @@ h4 {
 }
 .edit-btn {
     width: 95%;
+    height: 30px;
     font-size: 16px;
     margin-top: 15px;
+    background-color: #645cff;
+    color: white;
+    border-radius: 5px;
+    border: none;
+
+}
+.edit-form p {
+    font-size: 12px;
+    margin-top: 20px;
+    color: rgb(180, 16, 16);
 }
 .edit-form small {
     text-align: center;
@@ -176,7 +188,45 @@ h4 {
 .return-btn button {
     width: 30%;
     height: 40px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.829);
     font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    border: none;
 }
 
+.form-container {
+    width: 600px;
+    height: 150px;
+    margin: 50px auto;
+    border-radius: 5px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+#input-task {
+    position: relative;
+    border-radius: 5px 0 0 5px;
+    background-color: #f8fafc;
+    width: 400px;
+    height: 30px;
+    border: 1px solid rgba(128, 128, 128, 0.123);
+    padding-left: 10px;
+    font-size: 17px;
+}
+.add-btn {
+    position: relative;
+    border-radius: 0 5px 5px 0;
+    left: -5px;
+    width: 150px;
+    height: 32px;
+    border: none;
+    background-color: #645cff;
+    color: white;
+    font-size: 17px;
+}
+.form-container p {
+    text-align: left;
+    font-size: 12px;
+    padding-left: 20px;
+    color: rgb(184, 26, 26);
+}
