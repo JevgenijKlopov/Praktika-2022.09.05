@@ -118,8 +118,9 @@ h2 {
 .tcon-text2 {
     text-decoration: line-through;
 }
-.tcon-text2::before {
-    content: "";
+.tcon-text2 h5::before {
+    content: "\f058";
+    
 }
 .tcontainer1:hover, .tcontainer2:hover {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.541), -5px 5px 5px rgba(37, 37, 37, 0.096);
